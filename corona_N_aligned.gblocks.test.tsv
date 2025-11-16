@@ -1,0 +1,41 @@
+Table. Maximum Likelihood analysis of substitution models
+Model	Parameters	BIC	AICc	lnL	(+I)	(+G)	R	f(A)	f(T)	f(C)	f(G)	r(AT)	r(AC)	r(AG)	r(TA)	r(TC)	r(TG)	r(CA)	r(CT)	r(CG)	r(GA)	r(GT)	r(GC)
+GTR+G	196	20227.543	18443.855	-9025.346	n/a	0.90	1.32	0.297	0.257	0.232	0.215	0.063	0.072	0.107	0.073	0.153	0.020	0.092	0.169	0.037	0.149	0.024	0.040
+GTR+G+I	197	20280.765	18487.982	-9046.404	0.11	3.28	1.23	0.297	0.257	0.232	0.215	0.067	0.070	0.102	0.078	0.150	0.024	0.090	0.166	0.039	0.141	0.029	0.042
+HKY+G+I	193	20298.609	18542.204	-9077.538	0.11	3.28	1.23	0.297	0.257	0.232	0.215	0.057	0.052	0.119	0.066	0.128	0.048	0.066	0.142	0.048	0.165	0.057	0.052
+TN93+G+I	194	20299.732	18534.232	-9072.546	0.11	3.35	1.23	0.297	0.257	0.232	0.215	0.057	0.051	0.101	0.066	0.149	0.048	0.066	0.165	0.048	0.140	0.057	0.051
+T92+G+I	191	20301.792	18563.577	-9090.236	0.11	3.22	1.22	0.277	0.277	0.223	0.223	0.062	0.050	0.123	0.062	0.123	0.050	0.062	0.153	0.050	0.153	0.062	0.050
+HKY+G	192	20327.343	18580.033	-9097.459	n/a	2.23	1.19	0.297	0.257	0.232	0.215	0.058	0.053	0.117	0.067	0.127	0.049	0.067	0.140	0.049	0.162	0.058	0.053
+T92+G	190	20328.734	18599.614	-9109.260	n/a	2.23	1.18	0.277	0.277	0.223	0.223	0.063	0.051	0.121	0.063	0.121	0.051	0.063	0.151	0.051	0.151	0.063	0.051
+TN93+G	193	20329.469	18573.064	-9092.968	n/a	2.25	1.19	0.297	0.257	0.232	0.215	0.058	0.053	0.101	0.067	0.145	0.049	0.067	0.160	0.049	0.140	0.058	0.053
+K2+G+I	190	20339.836	18610.716	-9114.812	0.11	3.38	1.20	0.250	0.250	0.250	0.250	0.057	0.057	0.136	0.057	0.136	0.057	0.057	0.136	0.057	0.136	0.057	0.057
+K2+G	189	20365.642	18645.617	-9133.268	n/a	2.30	1.17	0.250	0.250	0.250	0.250	0.058	0.058	0.135	0.058	0.135	0.058	0.058	0.135	0.058	0.135	0.058	0.058
+GTR+I	196	20426.573	18642.884	-9124.861	0.13	n/a	1.14	0.297	0.257	0.232	0.215	0.073	0.068	0.098	0.084	0.147	0.029	0.087	0.163	0.040	0.135	0.035	0.043
+TN93+I	193	20441.626	18685.221	-9149.047	0.13	n/a	1.14	0.297	0.257	0.232	0.215	0.060	0.054	0.096	0.069	0.146	0.050	0.069	0.162	0.050	0.133	0.060	0.054
+HKY+I	192	20448.946	18701.636	-9158.260	0.13	n/a	1.13	0.297	0.257	0.232	0.215	0.060	0.054	0.115	0.069	0.124	0.050	0.069	0.137	0.050	0.159	0.060	0.054
+T92+I	190	20455.992	18726.872	-9172.890	0.13	n/a	1.13	0.277	0.277	0.223	0.223	0.065	0.052	0.119	0.065	0.119	0.052	0.065	0.147	0.052	0.147	0.065	0.052
+K2+I	189	20480.465	18760.439	-9190.679	0.13	n/a	1.12	0.250	0.250	0.250	0.250	0.059	0.059	0.132	0.059	0.132	0.059	0.059	0.132	0.059	0.132	0.059	0.059
+JC+G	188	20509.932	18799.002	-9210.966	n/a	0.99	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+JC+G+I	189	20554.619	18834.594	-9227.756	0.11	3.60	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+GTR	195	20670.061	18895.467	-9252.158	n/a	n/a	1.06	0.297	0.257	0.232	0.215	0.073	0.074	0.096	0.084	0.140	0.030	0.095	0.155	0.041	0.133	0.035	0.045
+JC+I	188	20680.111	18969.181	-9296.055	0.13	n/a	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+TN93	192	20699.419	18952.110	-9283.497	n/a	n/a	1.06	0.297	0.257	0.232	0.215	0.062	0.056	0.094	0.071	0.140	0.052	0.071	0.155	0.052	0.130	0.062	0.056
+T92	189	20707.500	18987.475	-9304.197	n/a	n/a	1.06	0.277	0.277	0.223	0.223	0.067	0.054	0.115	0.067	0.115	0.054	0.067	0.143	0.054	0.143	0.067	0.054
+HKY	191	20707.558	18969.343	-9293.119	n/a	n/a	1.06	0.297	0.257	0.232	0.215	0.062	0.056	0.111	0.072	0.120	0.052	0.072	0.133	0.052	0.154	0.062	0.056
+K2	188	20726.724	19015.794	-9319.362	n/a	n/a	1.05	0.250	0.250	0.250	0.250	0.061	0.061	0.128	0.061	0.128	0.061	0.061	0.128	0.061	0.128	0.061	0.061
+JC	187	20914.141	19212.306	-9418.623	n/a	n/a	0.50	0.250	0.250	0.250	0.250	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083	0.083
+NOTE.-- This table presents the goodness of fit for multiple substitution models, including their parameter estimates. The Bayesian Information Criterion (BIC) scores are used to select the optimal model. Each model’s Maximum Likelihood value (lnL), corrected Akaike Information Criterion (AICc) value, BIC, and the number of parameters are presented (refer to Chapter 8 in [1] for more information). Evolutionary rate variation among sites was modeled using a discrete Gamma distribution (+G) with 5 rate categories [2] and a fraction of sites were allowed to be evolutionarily invariant (+I). Estimates of gamma shape parameter and fraction of invariant sites are also shown, as appropriate. Assumed or estimated values of transition/transversion bias (R) are shown for each model, as well. They are followed by nucleotide frequencies (f) and rates of base substitutions (r) for each nucleotide pair. The sum of r estimates is set to 1 for each model making comparisons across models easier. The ML analyses were conducted using an automatically generated tree topology [3]. The analytical procedure encompassed 95 coding nucleotide sequences using 1st, 2nd, 3rd, and non-coding positions with 701 positions in the final dataset. Evolutionary analyses were conducted in MEGA12 [4][5] utilizing up to 8 parallel computing threads.
+
+Abbreviations: GTR: General Time Reversible; HKY: Hasegawa-Kishino-Yano; TN93: Tamura-Nei; T92: Tamura 3-parameter; K2: Kimura 2-parameter; JC: Jukes-Cantor.
+
+1. Nei M. and Kumar S. (2000). Molecular Evolution and Phylogenetics. Oxford University Press, New York.
+
+2. Yang Z. (1994) Maximum likelihood phylogenetic estimation from DNA sequences with variable rates over sites: Approximate methods.Journal of Molecular Evolution..39:306-314.
+
+3. Tamura K., Peterson D., Peterson N., Stecher G., Nei M., and Kumar S. (2011). MEGA5: Molecular Evolutionary Genetics Analysis using Maximum Likelihood, Evolutionary Distance, and Maximum Parsimony Methods. Molecular Biology and Evolution 28: 2731-2739.
+
+4. Kumar S., Stecher G., Suleski M., Sanderford M., Sharma S., and Tamura K. (2024). Molecular Evolutionary Genetics Analysis Version 12 for adaptive and green computing. Molecular Biology and Evolution 41:1-9.
+
+5. Stecher G., Tamura K., and Kumar S. (2020). Molecular Evolutionary Genetics Analysis (MEGA) for macOS. Molecular Biology and Evolution 37:1237-1239.
+
+Disclaimer: While every effort has been made to ensure the accuracy of the caption, it is provided "as is" without warranty of any kind. Users are advised to thoroughly review the caption before its use for any purpose and report any errors or issues to the authors at www.megasoftware.net. The authors and their employers disclaim any liability for damages, including but not limited to special or consequential damages. Additionally, the authors expressly disclaim all other warranties, whether expressed or implied, including the suitability of the caption text for a specific purpose, use, or application.
